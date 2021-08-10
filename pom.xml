@@ -17,7 +17,7 @@
 		<fastjson.version>1.2.75</fastjson.version>
 		<hutool-all.version>5.5.5</hutool-all.version>
 		<druid-spring-boot-starter.version>1.2.5</druid-spring-boot-starter.version>
-		<mybatis-spring-boot-starter.version>2.4.1</mybatis-spring-boot-starter.version>
+		<mybatis-spring-boot-starter.version>2.2.0</mybatis-spring-boot-starter.version>
 		<commons-collections.version>3.2.1</commons-collections.version>
 		<cn.jpush.api.version>3.4.5</cn.jpush.api.version>
 		<org.apache.zookeeper.version>3.4.6</org.apache.zookeeper.version>
@@ -31,6 +31,8 @@
 		<easyexcel.version>2.2.7</easyexcel.version>
 		<poi.version>4.1.0</poi.version>
 		<zip4j.version>1.3.2</zip4j.version>
+		<commons-beanutils.version>1.9.3</commons-beanutils.version>
+		<dom4j.version>2.1.3</dom4j.version>
 	</properties>
 
 	<dependencyManagement>
@@ -80,11 +82,6 @@
 				<groupId>commons-collections</groupId>
 				<artifactId>commons-collections</artifactId>
 				<version>${commons-collections.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.commons</groupId>
-				<artifactId>commons-lang3</artifactId>
-				<version>${commons-lang3.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.jpush.api</groupId>
@@ -150,6 +147,10 @@
 	</dependencyManagement>
 
 	<distributionManagement>
+		<!-- <repository> <id>alimaven</id> <name>aliyun maven</name> <url>http://maven.aliyun.com/nexus/content/groups/public/</url> <releases> <enabled>true</enabled> </releases> <snapshots> <enabled>false</enabled> 
+			</snapshots> </repository> -->
+		<!-- <repository> <id>maven-releases</id> <name>maven-releases</name> <url>http://192.168.1.14:8081/repository/maven-releases/</url> </repository> <snapshotRepository> <id>maven-snapshots</id> <name>maven-snapshots</name> 
+			<url>http://192.168.1.14:8081/repository/maven-snapshots/</url> </snapshotRepository> -->
 		<repository>
 			<id>maven-releases</id>
 			<name>maven-releases</name>
