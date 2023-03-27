@@ -15,7 +15,7 @@
         <spring-cloud.version>2020.0.0</spring-cloud.version>
         <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>
         <fastjson.version>1.2.75</fastjson.version>
-        <hutool-all.version>5.7.18</hutool-all.version>
+        <hutool-all.version>5.8.16</hutool-all.version>
         <druid-spring-boot-starter.version>1.2.5</druid-spring-boot-starter.version>
         <mybatis-spring-boot-starter.version>2.2.0</mybatis-spring-boot-starter.version>
         <commons-collections.version>3.2.1</commons-collections.version>
