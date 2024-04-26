@@ -27,10 +27,10 @@
         <spring-boot.version>2.4.0</spring-boot.version>
         <fastjson.version>1.2.75</fastjson.version>
         <fastjson2.version>2.0.15</fastjson2.version>
-        <hutool-all.version>5.8.16</hutool-all.version>
+        <hutool-all.version>5.8.19</hutool-all.version>
         <cn.jpush.api.version>3.4.5</cn.jpush.api.version>
         <javax.servlet.version>2.5</javax.servlet.version>
-        <xxl-job-core.version>2.2.0</xxl-job-core.version>
+        <xxl-job-core.version>2.4.0</xxl-job-core.version>
         <httpclient.version>4.5.13</httpclient.version>
         <easyexcel.version>3.2.1</easyexcel.version>
         <poi.version>4.1.0</poi.version>
